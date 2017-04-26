@@ -1,0 +1,78 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid black;
+}
+
+
+.header{
+    background-color: gold;
+    height: 80px;
+}
+
+.header img {
+    max-height: 100%;
+}
+
+.menu > div {
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+.menu .menu-left {
+    background-color: green;
+    
+}
+
+.menu .menu-right {
+    background-color: palevioletred;
+}
+
+.content-wrapper .wrapper-left {
+    background-color: blueviolet;
+    float: left;
+    width: 30%;
+    min-height: 400px;
+}
+
+.content-wrapper .wrapper-right {
+    background-color: aquamarine;
+    float: left;
+    width: 70%;
+    min-height: 400px;
+}
+
+.breadcrumb {
+    background-color: goldenrod;
+    height: 40px;
+}
+
+.content .content-left {
+    background-color: cornflowerblue;
+    float:left;
+    min-height: 360px;
+    width: 70%;
+}
+
+.content .content-right {
+    background-color: chocolate;
+    float:left;
+    min-height: 360px;
+    width: 30%;
+}
+
+.footer > div {
+    float: left;
+    width: 25%;
+    background-color: gold;
+    min-height: 50px;
+    
+}
