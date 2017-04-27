@@ -1,0 +1,80 @@
+/* General zone */
+
+html, body {
+    height: 100%;
+    background-image: url("http://static.tumblr.com/fa1168dc8ff4df0526d0fc9707d5c9fb/rflcg3z/FV0nhjeku/tumblr_static_9hb9cmokwhkwcwcggwc8wg40s.jpg");
+    background-size: cover;
+}
+
+.heading-title {
+    border-radius: 15px 50px;
+    background: linear-gradient(to right, burlywood, white);
+    padding: 20px;
+    margin: 30px 15px 0px 15px;
+    height: 50px; 
+    border: 2px solid salmon;
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+    color: maroon;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Header zone*/
+
+.header{
+    background-color: aquamarine;
+}
+
+/* Content zone */
+
+.content-wrapper {
+    height: 100%;
+}
+
+.content-wrapper .sidebar-left{
+    background-color: darksalmon;
+    float: left;
+    height: 100%;
+    width: 15%;
+}
+
+.content-wrapper, .sidebar-left a {
+    display: block;
+}
+
+.content-wrapper .content-main{
+    background-color: lavender;
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+
+.content-wrapper .sidebar-right{
+    background-color: darksalmon;
+    float: right;
+    height: 100%;
+    width: 15%;
+}
+
+.my-picture {
+    border-radius: 15px 50px;
+    background-image: url("IMG_0826.JPG");
+    background-size: cover;
+    background-repeat:  no-repeat;
+    margin: 30px 15px 0px 15px;
+    height: 150px; 
+    border: 2px solid salmon;
+}
+
+/* Footer zone */
+
+.footer{
+    background-color: aquamarine;
+    height: 30px;
+    clear: both;
+}
+
+img {
+    width:800px;
+    height: 200px;  
+}
