@@ -1,0 +1,87 @@
+.header .text-primary span {
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    border: solid 5px #c7254e;
+}
+
+.header.inline-block {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: solid 3px #c7254e;
+}
+
+.main-picture::after {
+    font-family: FontAwesome;
+    content: "\f063";
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.main-picture img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-picture h1 {
+    margin: 50px;
+}
+.main-picture .first-h1 {
+    /*display: none;*/
+}
+.main-picture .second-h1 {
+    /*visibility: hidden;*/
+}
+.about-me {
+    padding-top: 50px;
+}
+.about-me .text-info span {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    border: solid 1px red;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.about-me .table-me {
+    display: table;
+    background-color: goldenrod;
+    border: #000 dotted 10px;
+    float: left;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+}
+.about-me .row {
+    display: table-row;
+}
+.about-me .cell {
+    display: table-cell;
+}
+
+.big-space {
+    height: 500px;
+}
+
+.my-skills {
+    padding: 40px;
+}
+
+.my-skills .skill-bootsrap div {
+    width: 60%;
+}
+
+.my-skills .skill-html div {
+    width: 50%;
+}
+
+.my-skills ul {
+    list-style-type: none;
+}
+
+.my-skills .progress {
+    margin-bottom: 0;
+}
+
