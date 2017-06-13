@@ -1,0 +1,9 @@
+.content .img-responsive {
+
+}
+
+.content h1 {
+    position: relative;
+    top: -550px;
+    text-align: center;
+}
