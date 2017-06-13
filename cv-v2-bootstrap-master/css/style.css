@@ -12,6 +12,10 @@
     border: solid 3px #c7254e;
 }
 
+.main-picture {
+    padding-top: 90px;
+}
+
 .main-picture::after {
     font-family: FontAwesome;
     content: "\f063";
@@ -19,6 +23,7 @@
     display: block;
     font-size: 50px;
     padding-bottom: 30px;
+    
 }
 .main-picture img {
     margin-top: 50px;
@@ -49,16 +54,14 @@
     display: table;
     background-color: goldenrod;
     border: #000 dotted 10px;
-    float: left;
-    width: 500px;
-    height: 150px;
-    padding: 10px;
+    width: 100%;
 }
-.about-me .row {
+.about-me .row-me {
     display: table-row;
 }
-.about-me .cell {
+.about-me .cell-me {
     display: table-cell;
+    padding: 30px;
 }
 
 .big-space {
@@ -85,3 +88,37 @@
     margin-bottom: 0;
 }
 
+.pos-master {
+    position: relative;
+}
+
+.pos1, .pos2, .pos3, .pos4 {
+    width: 60px;
+    height: 40px;
+    position: relative;
+}
+
+.pos1 {
+    background-color: red;
+    z-index: 10;
+}
+
+.pos2 {
+    background-color: blue;
+    left: 30px;
+    top: -20px;
+    z-index: 8;
+    position: absolute;
+}
+
+.pos3 {
+    background-color: yellow;
+    z-index: 11;
+}
+
+.pos4 {
+    background-color: green;
+    left: 30px;
+    top: -20px;
+    z-index: 9;
+}
