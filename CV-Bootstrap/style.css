@@ -8,7 +8,7 @@ html, body {
 }
 
 a {
-    color: #828282;
+    color: #f0b4a8;
     text-decoration: none;
 }
 
@@ -16,52 +16,45 @@ a:hover {
     text-decoration: underline;
 }
 
+h1 {
+    font-weight: 100;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 header {
     background-color: #828282;
-    height: 200px;
-    text-align: center;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
 }
 
-header h1 {
-    font-size: 50px;
-    font-weight: 100;
-    letter-spacing: 14px;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 120px 0 0 270px;
-
-}
-
 aside {
-    border-radius: 3px;
     background-color: #f3e0dc;
     font-size: 13px;
 }
 
-
 @media screen and (min-width: 992px) {
+    h1 {
+        margin: 0;
+        padding-top: 120px;
+        font-size: 50px;
+        letter-spacing: 14px;
+    }
+    header {
+        min-height: 200px;
+    }
+
     aside {
         margin-top: -150px;
     }
 }
 
 
-
-aside .image {
-    text-align: center;
-    padding-top: 50px;
+aside a {
+    color: #828282;
 }
-
-aside img {
-    border-radius: 3px;
-}
-
 aside .contact {
     padding: 50px 50px 30px;
 }
-
 aside h4 {
     border-bottom: 1px solid rgba(130, 130, 130, 0.4);
     padding: 10px 50px;
@@ -103,7 +96,4 @@ main p {
     line-height: 25px;
 }
 
-main a {
-    color: #f0b4a8;
-}
 
