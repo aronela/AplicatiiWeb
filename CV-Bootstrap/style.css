@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&subset=latin-ext');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #828282;
+    line-height: 18px;
+}
+
+a {
+    color: #828282;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #828282;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 120px 0 0 270px;
+
+}
+
+aside {
+    border-radius: 3px;
+    background-color: #f3e0dc;
+    font-size: 13px;
+}
+
+
+@media screen and (min-width: 992px) {
+    aside {
+        margin-top: -150px;
+    }
+}
+
+
+
+aside .image {
+    text-align: center;
+    padding-top: 50px;
+}
+
+aside img {
+    border-radius: 3px;
+}
+
+aside .contact {
+    padding: 50px 50px 30px;
+}
+
+aside h4 {
+    border-bottom: 1px solid rgba(130, 130, 130, 0.4);
+    padding: 10px 50px;
+    letter-spacing: 8px;
+    font-weight: 300;
+}
+
+aside .education {
+    padding-bottom: 20px;
+}
+
+aside .education p {
+    padding: 5px 50px;
+}
+
+main h2 {
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+main hr {
+    width: 100px;
+}
+
+main h4  {
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    background-color: #eee;
+    margin: 22px 70px;
+}
+
+main p {
+    line-height: 25px;
+}
+
+main a {
+    color: #f0b4a8;
+}
+
